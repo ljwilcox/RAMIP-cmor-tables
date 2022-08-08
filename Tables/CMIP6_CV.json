@@ -61,6 +61,7 @@
             "LUMIP":"Land-Use Model Intercomparison Project",
             "OMIP":"Ocean Model Intercomparison Project",
             "PAMIP":"Polar Amplification Model Intercomparison Project",
+            "RAMIP":"Regional Aerosol Model Intercomparison Project",
             "PMIP":"Palaeoclimate Modelling Intercomparison Project",
             "RFMIP":"Radiative Forcing Model Intercomparison Project",
             "SIMIP":"Sea Ice Model Intercomparison Project",
@@ -10860,6 +10861,209 @@
                 "sub_experiment_id":[
                     "none"
                 ]
+            },
+            "ssp370-aer126":{
+                "activity_id":[
+                    "RAMIP"
+                ],  
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with anthropogenic aerosol and precursor emissions taken from SSP1-2.6.",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 anthropogenic aerosol and precursor emissions",
+                "experiment_id":"ssp370-aer126",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
+            },
+            "ssp370-aer126eas":{
+                "activity_id":[
+                    "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with East Asian anthropogenic aerosol and precursor emissions taken from SSP1-2.6. East Asia is the region bounded by 95 and 133E and 20 and 53N.",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 anthropogenic aerosol and precursor emissions over East Asia",
+                "experiment_id":"ssp370-aer126eas",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
+            },
+            "ssp370-aer126sas":{
+                "activity_id":[
+                    "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with South Asian anthropogenic aerosol and precursor emissions taken from SSP1-2.6. South Asia is the region bounded by 65 and 95E and 5 and 35N.",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 anthropogenic aerosol and precursor emissions over South Asia",
+                "experiment_id":"ssp370-aer126sas",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
+            },
+            "ssp370-aer126afr":{
+                "activity_id":[
+                    "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with African and Middle Eastern anthropogenic aerosol and precursor emissions taken from SSP1-2.6. Africa and the Middle East is the region bounded by 20W, 60E, 35S and 35N.",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 anthropogenic aerosol and precursor emissions over Africa and the Middle East",
+                "experiment_id":"ssp370-aer126afr",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
+            },
+            "ssp370-aer126asia":{
+                "activity_id":[
+                    "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with Asian anthropogenic aerosol and precursor emissions taken from SSP1-2.6. Asia is defined as the combination of the East Asian and South Asian regions used in ssp370-126eas and ssp370-126sas. ",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 anthropogenic aerosol and precursor emissions over Asia.",
+                "experiment_id":"ssp370-aer126asia",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"2"
+            },
+            "ssp370-aer126saf-ca":{
+                "activity_id":[
+                    "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with sub-Saharan African black carbon and organic carbon emissions taken from SSP1-2.6.Sub-Saharan Africa is the region bounded by 20W, 50E, 35S, and 12N",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 black carbon and organic carbon emissions over sub-Saharan Africa.",
+                "experiment_id":"ssp370-aer126saf-ca",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"2"
+            },
+        "ssp370-aer126sas-ca":{
+             "activity_id":[
+                 "RAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "description":"SSP3-7.0 anthropogenic emissions, but with South Asian black carbon and organic carbon emissions taken from SSP1-2.6. South Asia is the region bounded by 65 and 95E and 5 and 35N.",
+                "end_year":"2051",
+                "experiment":"SSP3-7.0 forcing, but with SSP1-2.6 black carbon and organic carbon emissions over sub-Saharan Africa.",
+                "experiment_id":"ssp370-aer126sas-ca",
+                "min_number_yrs_per_sim":"37",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "start_year":"2015",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"2"
             },
             "ssp370-lowNTCF":{
                 "activity_id":[
