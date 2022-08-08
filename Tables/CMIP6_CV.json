@@ -3409,6 +3409,7 @@
                     "LUMIP",
                     "OMIP",
                     "PMIP",
+                    "RAMIP",
                     "RFMIP",
                     "ScenarioMIP",
                     "VolMIP"
