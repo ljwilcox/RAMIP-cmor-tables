@@ -12,18 +12,18 @@ import os
 
 from typing import Type, Dict, Any
 
-from cdds_common.cdds_plugins.attributes import DefaultGlobalAttributes
-from cdds_common.cdds_plugins.base.base_models import BaseModelStore, BaseModelParameters, ModelId
-from cdds_common.cdds_plugins.cmip6.cmip6_grid import Cmip6GridLabel
-from cdds_common.cdds_plugins.cmip6.cmip6_models import (
+from cdds.common.plugins.attributes import DefaultGlobalAttributes
+from cdds.common.plugins.base.base_models import BaseModelStore, BaseModelParameters, ModelId
+from cdds.common.plugins.cmip6.cmip6_grid import Cmip6GridLabel
+from cdds.common.plugins.cmip6.cmip6_models import (
     UKESM1_0_LL_Params, HadGEM3_GC31_LL_Params)
-import cdds_common.cdds_plugins.cmip6 as cmip6
+import cdds.common.plugins.cmip6 as cmip6
 
-from cdds_common.cdds_plugins.common import LoadResults
-from cdds_common.cdds_plugins.grid import GridLabel
-from cdds_common.cdds_plugins.models import ModelParameters
-from cdds_common.cdds_plugins.plugins import CddsPlugin
-from cdds_common.cdds_plugins.streams import StreamInfo
+from cdds.common.plugins.common import LoadResults
+from cdds.common.plugins.grid import GridLabel
+from cdds.common.plugins.models import ModelParameters
+from cdds.common.plugins.plugins import CddsPlugin
+from cdds.common.plugins.streams import StreamInfo
 
 
 class RamipPlugin(CddsPlugin):
